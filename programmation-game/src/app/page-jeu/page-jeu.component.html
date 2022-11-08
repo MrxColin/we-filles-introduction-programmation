@@ -1,0 +1,16 @@
+<div [ngStyle]="{'background-color': currentStep!='Debut' ? 'black' : 'invisible' }">
+<div class="inputs"> 
+    <label for="usr">Identifiant:</label>
+    <input   [formControl]="user" type="text" class="form-control" id="usr">
+    <label for="pwd">Mot de passe:</label>
+    <input  [formControl]="mdp" type="password" class="form-control" id="pwd">
+    <button  type="button" class="btn btn-outline-danger" (click)="desamorcer()">Désamorcer la bombe</button>
+</div>
+<div class="jeu-container">
+    <app-etape-un (newItemEvent)="currentStep=$event" [currentStep] = "currentStep" *ngIf="currentStep==='Debut'"></app-etape-un>
+    <app-etape-deux (newItemEvent)="currentStep=$event" [currentStep] = "currentStep" *ngIf="currentStep==='Deux'"></app-etape-deux>
+    <app-etape-trois (newItemEvent)="currentStep=$event" [currentStep] = "currentStep" *ngIf="currentStep==='Trois'"></app-etape-trois>
+    <app-etape-quatre (newItemEvent)="currentStep=$event" [currentStep] = "currentStep" *ngIf="currentStep==='Quatre'"></app-etape-quatre>
+
+</div>
+</div>

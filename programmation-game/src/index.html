@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+	<!-- 
+    Bienvenue dans le code source de la page, ici sont décrit les éléments présent dans la page !
+    Copie colle l'algorithme ci-dessous sur le site suivant (dans la partie gauche du site) :  https://www.programiz.com/python-programming/online-compiler/ 
+    Appuie sur le bouton Run ensuite et entre l'identifiant crypté dans la partie droite du site et observe le résultat
+
+
+def decoder_message(message) :_
+	message_decode = ""
+	for lettre in message : 
+	    chiffre = ord(lettre)
+	    chiffre = chiffre - 3
+	    message_decode = message_decode + chr(chiffre)
+	return message_decode
+message_code = input("Que cherchez-vous à décoder ? ")
+print("Message décodé : " + decoder_message(message_code))
+
+				
+-->
+	
+<head>
+  <meta charset="utf-8">
+  <title>ProgrammationGame</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.fin{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+img{
+    display: flex;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
