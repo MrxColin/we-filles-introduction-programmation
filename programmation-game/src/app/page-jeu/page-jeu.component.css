@@ -18,3 +18,25 @@ button{
     margin-left: auto;
     width: 85%;
 }
+
+
+.bombe{
+    margin-right: auto;
+    margin-left: auto;
+    display: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.bombe img{
+    width: 150px;
+}
+
+.title{
+    color:rgb(182, 14, 11);
+    text-align: center;
+}
+
+.container-jeu{
+    height: 100%;
+}

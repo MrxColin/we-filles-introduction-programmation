@@ -7,8 +7,15 @@
 	margin-top: 5%;
 	color: white;
 	font-size: 16px;
+	height: 100%;
 }
 
 img {
 	width: 100%;
+}
+
+.titre {
+	color: red;
+	text-align: center;
+	vertical-align: middle;
 }
