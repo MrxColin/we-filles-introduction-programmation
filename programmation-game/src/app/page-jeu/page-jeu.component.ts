@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
 })
 export class PageJeuComponent implements OnInit {
 
+  vousAvezRate: boolean = false;
+
   constructor(private router: Router) { }
   user = new FormControl('');
   mdp = new FormControl('');
@@ -19,6 +21,8 @@ export class PageJeuComponent implements OnInit {
   desamorcer(){
     if (this.mdp.value === "password123" && this.user.value ==="jesuistresmechant"){
       this.router.navigateByUrl('/bomb');
+    } else {
+      this.vousAvezRate = true;
     }
   }
 }
