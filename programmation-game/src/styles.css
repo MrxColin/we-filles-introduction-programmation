@@ -3,3 +3,6 @@ body{
     background-color: black!important;
     font-family: "Roboto", monospace;
 }
+html,body{
+    height: 100%;
+}
