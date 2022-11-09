@@ -5,7 +5,7 @@
     <img src="./assets/bomb.gif" alt="bombe">
 </div>
 
-<div class="jeu-container">
+<div class="jeu-container" [ngStyle]="{'background-color': currentStep!='Debut' ? 'black' : 'invisible' }">
     <app-etape-un (newItemEvent)="currentStep=$event" [currentStep] = "currentStep" *ngIf="currentStep==='Debut'"></app-etape-un>
     <app-etape-deux (newItemEvent)="currentStep=$event" [currentStep] = "currentStep" *ngIf="currentStep==='Deux'"></app-etape-deux>
     <app-etape-trois (newItemEvent)="currentStep=$event" [currentStep] = "currentStep" *ngIf="currentStep==='Trois'"></app-etape-trois>
