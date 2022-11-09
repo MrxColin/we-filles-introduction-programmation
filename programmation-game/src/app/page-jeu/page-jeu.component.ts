@@ -18,7 +18,7 @@ export class PageJeuComponent implements OnInit {
   }
   desamorcer(){
     if (this.mdp.value === "password123" && this.user.value ==="jesuistresmechant"){
-      this.router.navigateByUrl('/bomb');
+      this.router.navigateByUrl('/bomb').then(e => window. location. reload());
     }
   }
 }
