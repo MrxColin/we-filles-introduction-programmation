@@ -17,7 +17,7 @@
     <p>Identifiants invalides, veuillez réessayer.</p>
 </div>
 
-<div class="inputs"  *ngIf="currentStep==='Quatre'"> 
+<div class="inputs"  *ngIf="currentStep==='Quatre'" [ngStyle]="{'background-color': 'black' }"> 
     <label for="usr">Identifiant:</label>
     <input   [formControl]="user" type="text" class="form-control" id="usr">
     <label for="pwd">Mot de passe:</label>
