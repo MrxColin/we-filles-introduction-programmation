@@ -17,6 +17,9 @@ button{
     margin-right: auto;
     margin-left: auto;
     width: 85%;
+    font-family: "Roboto", monospace;
+    color: white;
+    text-align: center;
 }
 
 
@@ -35,6 +38,7 @@ button{
 .title{
     color:rgb(182, 14, 11);
     text-align: center;
+    font-family: "Roboto", monospace;
 }
 
 .container-jeu{

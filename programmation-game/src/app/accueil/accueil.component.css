@@ -1,5 +1,3 @@
-
-
 .corps {
 	width: 50%; 
 	margin: auto;
@@ -8,14 +6,15 @@
 	color: white;
 	font-size: 16px;
 	height: 100%;
+	font-family: "Roboto", monospace;
 }
 
 img {
 	width: 100%;
 }
 
-.titre {
-	color: red;
-	text-align: center;
-	vertical-align: middle;
+.titre{
+    color:rgb(182, 14, 11);
+    text-align: center;
+	font-family: "Roboto", monospace;
 }
