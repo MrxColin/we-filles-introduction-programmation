@@ -1,10 +1,10 @@
-<h3>Etape 3 : Trouver le mot de passe</h3>
-<p>Bravo ! Nous avons maintenant l'identifiant, cependant il nous faut encore trouver le mot de passe...</p>
-<p>Il semblerait qu'un bouton sur cette page permette d'afficher de dernier, malheureusement le bouton ne semble pas fonctionner...</p>
-<p>Comme pour l'étape 1, inspecter la page. Cette fois-ci, intéressons nous à la partie gauche. On y voit le code HTML de la page,
-    on y retrouve tout les éléments présent sur la page, vous devez parcourir ces éléments jusqu'a trouver le bouton "Afficher le mot de passe"
-</p>
-<p>Une fois le bouton trouvé, vous devriez voir le mot-clé "disabled" au niveau de ce bouton, effacer le et le bouton devrait fonctionner !</p>
+<h3>Etape 3 : Trouvez le mot de passe</h3>
+<p>Malheureusement pour moi, vous progressez vite... Vous êtes maintenant en possession de mon identifiant, mais il vous manque encore le mot de passe !</p>
+<p>Vous aurez peut-être remarqué un bouton très frustrant sur lequel vous ne pouvez cliquer, mais qui semble pourtant si prometteur...</p>
+<p>Comme pour l'étape 1, inspectez la page. Cette fois-ci, intéressez-vous aux Elements de la page. Vous y trouverez le code HTML de la page,
+    qui décrit tous les éléments présents sur la page</p>
+<p>Dépilez et parcourez ces éléments jusqu'à trouver le bouton "Afficher le mot de passe"</p>
+<p>Une fois le bouton trouvé, vous devriez voir le mot-clé "disabled" au niveau de ce bouton, effacez-le et le bouton devrait fonctionner !</p>
 
 <button type="button" disabled  class="btn btn-success" (click)="afficherMDP()">Afficher le mot de passe</button>
 <p *ngIf="mdp">Le mot de passe est : 482c811da5d5b4bc6d497ffa98491e38 </p>
