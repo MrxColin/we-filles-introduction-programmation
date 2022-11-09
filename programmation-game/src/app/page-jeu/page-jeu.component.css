@@ -19,7 +19,6 @@ button{
     margin-left: auto;
     width: 85%;
     height: fit-content;
-    overflow-y: scroll;
     font-family: "Roboto", monospace;
     color: white;
     text-align: center;
