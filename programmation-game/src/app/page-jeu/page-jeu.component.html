@@ -13,6 +13,10 @@
 
 </div>
 
+<div class="dommage" *ngIf="vousAvezRate">
+    <p>Identifiants invalides, veuillez réessayer.</p>
+</div>
+
 <div class="inputs"  *ngIf="currentStep==='Quatre'"> 
     <label for="usr">Identifiant:</label>
     <input   [formControl]="user" type="text" class="form-control" id="usr">
